@@ -123,19 +123,20 @@ Zdroj:
     output_location: ""
     ```
 3. Mezi řádky 
+
     ```yml
-    - uses: actions/checkout@v2
-        with:
-          submodules: true
+      - uses: actions/checkout@v2
+          with:
+            submodules: true
     ```
     
     a
     
     ```yml
-    - name: Build And Deploy
-        id: builddeploy
-        uses: Azure/static-web-apps-deploy@v1
-        with:
+      - name: Build And Deploy
+          id: builddeploy
+          uses: Azure/static-web-apps-deploy@v1
+          with:
     ```
 
     vlož
@@ -209,5 +210,3 @@ jobs:
 
 # První příspěvek
 Návod, jak napsat první příspěvek [Writing a New Post](https://chirpy.cotes.page/posts/write-a-new-post/)
-
-# 
