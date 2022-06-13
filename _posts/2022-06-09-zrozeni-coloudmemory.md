@@ -107,6 +107,8 @@ Zbylé souboru nakopíruj do projektu do složky **assets/img/favicons/**. Pokud
 _Vytvoření statické stránky_
 
 ## Úprava GitHub Action Workflow
+Zdroj:  (drew learns cloud)[https://www.drewlearnscloud.blog/jekyll] 
+        (GitHub | aarreza)[https://github.com/aarreza/drewlearnscloudblog/blob/master/.github/workflows/azure-static-web-apps-proud-forest-0b3b9590f.yml]
 1. Po vytvoření Azure Static App dojde k vytvoření yml souboru v cestě .github/workflows/
 2. Otevři .yml soubor a změň:
     ```yml
