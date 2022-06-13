@@ -92,7 +92,7 @@ Rozbal ZIP soubor a odmaž tyto soubory:
 Zbylé souboru nakopíruj do projektu do složky **assets/img/favicons/**. Pokud složky ještě neexistují, je potřeba je nejprve vytvořit.
 
 # Publikování stránky
-## Azure Static App
+## Vytvoření Azure Static App
 
 1. Přihlaš se do [Azure Portalu](https://portal.azure.com)
 2. Marketplace -> Static Web App
@@ -106,5 +106,103 @@ Zbylé souboru nakopíruj do projektu do složky **assets/img/favicons/**. Pokud
 ![img-description](/assets/img/zrozeni-cloudmemory-2.jpg)
 _Vytvoření statické stránky_
 
+## Úprava GitHub Action Workflow
+1. Po vytvoření Azure Static App dojde k vytvoření yml souboru v cestě .github/workflows/
+2. Otevři .yml soubor a změň:
+    ```yml
+    branches:
+        - main
+    ```
+
+    ```yml
+    app_location: "/_site"
+    api_location: ""
+    output_location: ""
+    ```
+3. Mezi řádky 
+    ```yml
+    - uses: actions/checkout@v2
+        with:
+          submodules: true
+    ```
+    a
+    ```yml
+    - name: Build And Deploy
+        id: builddeploy
+        uses: Azure/static-web-apps-deploy@v1
+        with:
+    ```
+
+    vlož
+    ```yml
+    - name: Set up Ruby
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: 3.0
+    - name: Install dependencies
+        run: bundle install
+    - name: Jekyll build
+        run: jekyll build
+    ```
+
+### Příklad yml souboru
+```yml
+name: Azure Static Web Apps CI/CD
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    types: [opened, synchronize, reopened, closed]
+    branches:
+      - main
+
+jobs:
+  build_and_deploy_job:
+    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
+    runs-on: ubuntu-latest
+    name: Build and Deploy Job
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true
+      - name: Set up Ruby
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: 3.0
+      - name: Install dependencies
+        run: bundle install
+      - name: Jekyll build
+        run: jekyll build
+      - name: Build And Deploy
+        id: builddeploy
+        uses: Azure/static-web-apps-deploy@v1
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_LEMON_FOREST_065C33903 }}
+          repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
+          action: "upload"
+          ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
+          # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
+          app_location: "/_site" # App source code path
+          api_location: "" # Api source code path - optional
+          output_location: "" # Built app content directory - optional
+          ###### End of Repository/Build Configurations ######
+
+  close_pull_request_job:
+    if: github.event_name == 'pull_request' && github.event.action == 'closed'
+    runs-on: ubuntu-latest
+    name: Close Pull Request Job
+    steps:
+      - name: Close Pull Request
+        id: closepullrequest
+        uses: Azure/static-web-apps-deploy@v1
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_LEMON_FOREST_065C33903 }}
+          action: "close"
+```
+
 # První příspěvek
 Návod, jak napsat první příspěvek [Writing a New Post](https://chirpy.cotes.page/posts/write-a-new-post/)
+
+# 
