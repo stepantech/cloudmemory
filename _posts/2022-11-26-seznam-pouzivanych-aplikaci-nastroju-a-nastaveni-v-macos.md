@@ -34,6 +34,7 @@ tags: [macos, apps, aplikace, apple]     # TAG names should always be lowercase
 
 
 # Seznam Alfred Workflow
+
 | Název                                                                     | Popis                                                     |
 |---------------------------------------------------------------------------|-----------------------------------------------------------|
 | [CIDR Calculator](https://gilbertsanchez.com/cidr-calculator-for-alfred/) | Výpočet masky sítě, počtu hostů, první a poslední IP, ... |
@@ -43,7 +44,7 @@ tags: [macos, apps, aplikace, apple]     # TAG names should always be lowercase
 | Název                                    | Popis                                                                                          |
 |------------------------------------------|------------------------------------------------------------------------------------------------|
 | [ Alfred ]( https://www.alfredapp.com/ ) | Náhrada za Spotlight, spoštění aplikací, vyhledávání souborů, automatizace skrze Workflows,... |
-|                                          |                                                                                                |
+| [DisplayLink](https://www.synaptics.com/products/displaylink-graphics/downloads/macos) | Aplikace nutná pro fungování dokovací stanice od i-tec |
 |                                          |                                                                                                |
 |                                          |                                                                                                |
 |                                          |                                                                                                |
