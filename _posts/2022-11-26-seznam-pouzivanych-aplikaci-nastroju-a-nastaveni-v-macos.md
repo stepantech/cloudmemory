@@ -31,7 +31,7 @@ tags: [macos, apps, aplikace, apple]     # TAG names should always be lowercase
 | [Stream Deck](https://www.elgato.com/en/stream-deck) | Aplikace na konfiguraci programovatelné klávesnice od Elgato |
 | [TeamViewer](https://www.teamviewer.com) | Vzdálená správa klientských počítačů |
 | [Visual Studio Code](https://code.visualstudio.com/) | Editor kódu pro spoutu programovacích jazyků |
-| [Warp](https://www.warp.dev/) | Terminal s pokričilejšími funkcemi |
+| [Warp](https://www.warp.dev/) | Terminal s pokročilejšími funkcemi |
 
 
 # Seznam Alfred Workflow
