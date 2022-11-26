@@ -39,3 +39,8 @@ tags: [macos, apps, aplikace, apple]     # TAG names should always be lowercase
 | Název                                                                     | Popis                                                     |
 |---------------------------------------------------------------------------|-----------------------------------------------------------|
 | [CIDR Calculator](https://gilbertsanchez.com/cidr-calculator-for-alfred/) | Výpočet masky sítě, počtu hostů, první a poslední IP, ... |
+
+
+# ZSH profil a funkce
+
+[Stáhnout soubory](/assets/others/zsh/)
