@@ -7,6 +7,8 @@
 !.husky
 !.commitlintrc.json
 !.versionrc.json
+!.zshrc
+!.zsh_functions
 
 # bundler cache
 _site
