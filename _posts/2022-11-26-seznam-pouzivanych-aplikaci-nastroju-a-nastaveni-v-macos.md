@@ -43,4 +43,4 @@ tags: [macos, apps, aplikace, apple]     # TAG names should always be lowercase
 
 # ZSH profil a funkce
 
-[Stáhnout soubory](/assets/others/zsh/)
+[Stáhnout soubory](https://github.com/stepantech/cloudmemory/tree/main/assets/others/zsh)
