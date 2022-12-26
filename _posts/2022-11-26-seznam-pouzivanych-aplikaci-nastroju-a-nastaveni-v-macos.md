@@ -41,8 +41,22 @@ tags: [macos, apps, aplikace, apple]     # TAG names should always be lowercase
 | Název                                                                     | Popis                                                     |
 |---------------------------------------------------------------------------|-----------------------------------------------------------|
 | [CIDR Calculator](https://gilbertsanchez.com/cidr-calculator-for-alfred/) | Výpočet masky sítě, počtu hostů, první a poslední IP, ... |
+| [EDGE Fix](https://github.com/stepantech/terminal/blob/main/Alfred%20Workflows/Edge%20-%20Fix%20Cert.alfredworkflow) | Vloží příkaz do EDGE konzole pro potlačení nedůvěryhodného certifikátu |
+| [Visual Studio Code Workspace](https://github.com/stepantech/terminal/blob/main/Alfred%20Workflows/Visual%20Studio%20Code%20Workspace.alfredworkflow) | Nabídne seznam všech projektů a nabídne je k rychlému otevření |
 
 
 # ZSH profil a funkce
 
 [Stáhnout soubory](https://github.com/stepantech/cloudmemory/tree/main/assets/others/zsh)
+
+# Konfigurace Terminálu
+## Ověřování v terminálu pomocí TouchID
+Edituj soubor **/etc/pam.d/sudo** a pod řádek 
+
+```zsh
+#sudo: auth account password seassoin
+```
+přidej řádek:
+``` zsh
+auth    sufficient pam_tid.so
+```
