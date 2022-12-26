@@ -14,6 +14,7 @@ tags: [macos, apps, aplikace, apple]     # TAG names should always be lowercase
 | [balenaEtcher](https://www.balena.io/etcher/) | Flashování SD karet a USB disků |
 | [Bitwarden](https://bitwarden.com/) | Správce hesel |
 | [CrossOver](https://www.codeweavers.com/crossover) | Virtualizace Windows aplikací na MacOS. Funguje i s aplikací Winbox od Microsoft |
+| [DeepL](https://www.deepl.com/translator) | Překladač podobný Google Translator, založený na AI |
 | [DisplayLink](https://www.synaptics.com/products/displaylink-graphics/downloads/macos) | Aplikace nutná pro fungování dokovací stanice od i-tec |
 | [Docker](https://www.docker.com/) | Spouštění kontejnerových aplikací |
 | [Dropzone](https://aptonic.com/) | Nástroj na kopírování a nahrávání souborů do různých úložišť |
@@ -27,6 +28,7 @@ tags: [macos, apps, aplikace, apple]     # TAG names should always be lowercase
 | [Permute 3](https://software.charliemonroe.net/permute/) | Video a audio konvertor |
 | [Raspberry Pi Imager](https://www.raspberrypi.com/software/) | Flashování SD karet připravenými image pro Raspberry Pi |
 | [Remote Desktop Manager](https://devolutions.net/remote-desktop-manager/) | Správce připojení na vzdálenou plochu, SSH, VNC, ... |
+| [Shottr](https://shottr.cc/) | Nástroj na vytváření a úpravu screenshotů |
 | [Spotify](https://www.spotify.com/us/download/android/) | Přehrávač streamované hudby a hudební knihovna |
 | [Stream Deck](https://www.elgato.com/en/stream-deck) | Aplikace na konfiguraci programovatelné klávesnice od Elgato |
 | [TeamViewer](https://www.teamviewer.com) | Vzdálená správa klientských počítačů |
