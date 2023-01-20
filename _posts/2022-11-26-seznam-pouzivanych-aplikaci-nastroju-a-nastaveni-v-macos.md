@@ -49,6 +49,10 @@ tags: [macos, apps, aplikace, apple]     # TAG names should always be lowercase
 ## PowerShell PROFILE
 [Stažení profilového souboru](https://github.com/stepantech/terminal/tree/main/PowerShell/)
 
+## PowerShell moduly
+### Az Predictor
+[Doku](https://learn.microsoft.com/en-us/powershell/azure/az-predictor?view=azps-9.3.0)
+
 ## Oh-my-posh Theme
 Theme pro PowerShell prompt [Oh-my-posh](https://ohmyposh.dev/)
 [Stažení šablony](https://github.com/stepantech/terminal/tree/main/PowerShell/Theme)
