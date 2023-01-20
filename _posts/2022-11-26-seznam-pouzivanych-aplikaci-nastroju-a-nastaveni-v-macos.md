@@ -45,6 +45,14 @@ tags: [macos, apps, aplikace, apple]     # TAG names should always be lowercase
 | [Visual Studio Code Workspace](https://github.com/stepantech/terminal/blob/main/Alfred%20Workflows/Visual%20Studio%20Code%20Workspace.alfredworkflow) | Nabídne seznam všech projektů a nabídne je k rychlému otevření |
 
 
+# PowerShell
+## PowerShell PROFILE
+[Stažení profilového souboru](https://github.com/stepantech/terminal/tree/main/PowerShell/)
+
+## Oh-my-posh Theme
+Theme pro PowerShell prompt [Oh-my-posh](https://ohmyposh.dev/)
+[Stažení šablony](https://github.com/stepantech/terminal/tree/main/PowerShell/Theme)
+
 # ZSH profil a funkce
 
 [Stáhnout soubory](https://github.com/stepantech/cloudmemory/tree/main/assets/others/zsh)
