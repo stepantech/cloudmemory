@@ -5,12 +5,14 @@ categories: [Azure, Azure AD]
 tags: [Azure, Azure AD, Azure AD Connect, Troubleshooting ]     # TAG names should always be lowercase
 ---
 
-Zdroj:[learn.microsoft.com](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-install-existing-tenant)
+Zdroj: [learn.microsoft.com](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-install-existing-tenant)
 
 V případě již existujících účtů v Azure AD, po první instalace Azure AD Connect je potřeba spárovat on-prem účty a clodové účty. Spárování se nejprve provádí skrze soft-match, pokud tento způsob nezafunguje, je potřeba provést hard-mach.
 
 ## Soft-mach
 Spáruje účty na základě upn a primární emailové adresy (SMTP:) v atributu proxyAddresses. V on-prem i cloudové prostředí musí být tyto hodnoty shodné. Pokud nejsou, je potřeba pomocí Atribut Editoru v AD parametry upravit.
+
+> Pokud Soft-match nefubguje, nejprve zkontroluj, že není zakázaný na úrovni tenantu [BlockSoftMatch](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-syncservice-features#blocksoftmatch)
 
 ## Hard-match
 V případě, že soft-match nezafunguje a nespáruje uživatelské identity, je možné vygenerovat **immutableid**, který slouží jako jedinečný identifikátor a pomocí PowerShell tuto hodnotu nahrát do Azure AD k identitě, která má problémy se synchronizací.
