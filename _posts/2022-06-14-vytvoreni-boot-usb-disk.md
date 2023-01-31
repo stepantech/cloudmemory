@@ -2,7 +2,7 @@
 title: Vytvoření bootovacího USB disku
 date: 2022-06-14 13:35:00 +0200
 categories: [Tools, Utils]
-tags: [usb disk, boot, rufus, iso, terminal, macOS ]     # TAG names should always be lowercase
+tags: [usb disk, boot, rufus, iso, terminal, macos ]     # TAG names should always be lowercase
 ---
 
 Postup jak vytořit bootovací USB disk z ISO souboru.

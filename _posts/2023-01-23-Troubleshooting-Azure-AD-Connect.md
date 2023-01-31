@@ -2,7 +2,7 @@
 title: Troubleshooting Azure AD Connect
 date: 2023-01-23 18:12:00 +0200
 categories: [Azure, Azure AD]
-tags: [Azure, Azure AD, Azure AD Connect, Troubleshooting ]     # TAG names should always be lowercase
+tags: [azure, azure ad, azure ad connect, troubleshooting ]     # TAG names should always be lowercase
 ---
 
 Zdroj: [learn.microsoft.com](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-install-existing-tenant)
