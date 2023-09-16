@@ -72,3 +72,8 @@ přidej řádek:
 ``` zsh
 auth    sufficient pam_tid.so
 ```
+
+# MS Edge pluginy
+## cmd.ms
+Doplněk, který umožňuje snadnější a rychlejší přístup na portály MS služeb
+[Stránky projektu](https://cmd.ms/)
