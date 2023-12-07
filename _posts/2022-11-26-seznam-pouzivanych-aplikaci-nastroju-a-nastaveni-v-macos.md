@@ -12,7 +12,7 @@ tags: [macos, apps, aplikace, apple]     # TAG names should always be lowercase
 | [Alfred](https://www.alfredapp.com/) | Náhrada za Spotlight, spoštění aplikací, vyhledávání souborů, automatizace skrze Workflows,... |
 | [AltTab](https://alt-tab-macos.netlify.app/) | Rychlé přepínání aplikací pomocí klávesové zkratky Alt+Tab s náhledy |
 | [balenaEtcher](https://www.balena.io/etcher/) | Flashování SD karet a USB disků |
-| [Bitwarden](https://bitwarden.com/) | Správce hesel |
+| [BuhoCleaner](https://www.drbuho.com/buhocleaner/download) | Odinstalce a čištění Mac OSX |
 | [CrossOver](https://www.codeweavers.com/crossover) | Virtualizace Windows aplikací na MacOS. Funguje i s aplikací Winbox od Microsoft |
 | [DeepL](https://www.deepl.com/translator) | Překladač podobný Google Translator, založený na AI |
 | [DisplayLink](https://www.synaptics.com/products/displaylink-graphics/downloads/macos) | Aplikace nutná pro fungování dokovací stanice od i-tec |
