@@ -13,7 +13,7 @@ Nejprve je potřeba povolit NFS protokol na úrovni celého NAS **Control panel 
 ## Nastavení oprávnění
 U vytvořené sdíléné složky je potřeba nastavit **NFS Permissions**
 
-**Control panel -> Shared folder -> <název sdílené složky> -> Edit -> NFS Permissions -> Create**
+**Control panel -> Shared folder -> název sdílené složky -> Edit -> NFS Permissions -> Create**
 
 ![Nastavení NFS oprávnění](../assets/img/2024-12-30-pripojeni-nfs-share-k-rocky-linux-2.png)
 
