@@ -1,6 +1,6 @@
 ---
 title: Připojení NFS share k Rocky Linux
-date: 2024-12-30 12:135:00 +0200
+date: 2024-12-30 12:15:00 +0200
 categories: [Homelab, Docker]
 tags: [homelab, docker, opensource, rockylinux, nfs, tutorial, synology, nas]     # TAG names should always be lowercase
 ---
@@ -17,7 +17,7 @@ U vytvořené sdíléné složky je potřeba nastavit **NFS Permissions**
 ![Nastavení NFS oprávnění](../assets/img/2024-12-30-pripojeni-nfs-share-k-rocky-linux-2.png)
 
 | Nastavení      | Hodnota                                                                                                      |
-| ---------------|--------------------------------------------------------------------------------------------------------------|
+| -------------- | ------------------------------------------------------------------------------------------------------------ |
 | Hostname or IP | IP adresa serveru, ke kterému NFS share připojíš                                                             |
 | Privilage      | Oprávnění ke sdílenému disku                                                                                 |
 | Squash         | Namapování oprávnění na skupiny nebo uživatele                                                               |
