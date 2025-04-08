@@ -7,42 +7,44 @@ tags: [macos, apps, aplikace, apple]     # TAG names should always be lowercase
 
 # Seznam aplikací
 
-| Název | Popis |
-| ------- | ------- |
-| [Alfred](https://www.alfredapp.com/) | Náhrada za Spotlight, spoštění aplikací, vyhledávání souborů, automatizace skrze Workflows,... |
-| [AltTab](https://alt-tab-macos.netlify.app/) | Rychlé přepínání aplikací pomocí klávesové zkratky Alt+Tab s náhledy |
-| [balenaEtcher](https://www.balena.io/etcher/) | Flashování SD karet a USB disků |
-| [BuhoCleaner](https://www.drbuho.com/buhocleaner/download) | Odinstalce a čištění Mac OSX |
-| [CrossOver](https://www.codeweavers.com/crossover) | Virtualizace Windows aplikací na MacOS. Funguje i s aplikací Winbox od Microsoft |
-| [DeepL](https://www.deepl.com/translator) | Překladač podobný Google Translator, založený na AI |
-| [DisplayLink](https://www.synaptics.com/products/displaylink-graphics/downloads/macos) | Aplikace nutná pro fungování dokovací stanice od i-tec |
-| [Docker](https://www.docker.com/) | Spouštění kontejnerových aplikací |
-| [Dropzone](https://aptonic.com/) | Nástroj na kopírování a nahrávání souborů do různých úložišť |
-| [FileZilla](https://filezilla-project.org/) | FTP klient |
-| [IINA](https://iina.io/) | Video přehrávač |
-| [KeepassXC](https://keepassxc.org/) | Správce hesel |
-| [Microsoft Edge](https://www.microsoft.com/cs-cz/edge/)| Webový prohlížeč |
-| [Microsoft Remote Deskotop](https://apps.apple.com/us/app/microsoft-remote-desktop/) | Připojení na vzdálenou plochu, funkční s Azure Virtual Desktop |
-| [Microsoft To Do](https://todo.microsoft.com/tasks/) | Jednoduchý správce úkolů |
-| [Moom](https://apps.apple.com/us/app/moom/id419330170?mt=12) | Správce oken |
-| [Permute 3](https://software.charliemonroe.net/permute/) | Video a audio konvertor |
-| [Raspberry Pi Imager](https://www.raspberrypi.com/software/) | Flashování SD karet připravenými image pro Raspberry Pi |
-| [Remote Desktop Manager](https://devolutions.net/remote-desktop-manager/) | Správce připojení na vzdálenou plochu, SSH, VNC, ... |
-| [Shottr](https://shottr.cc/) | Nástroj na vytváření a úpravu screenshotů |
-| [Spotify](https://www.spotify.com/us/download/android/) | Přehrávač streamované hudby a hudební knihovna |
-| [Stream Deck](https://www.elgato.com/en/stream-deck) | Aplikace na konfiguraci programovatelné klávesnice od Elgato |
-| [TeamViewer](https://www.teamviewer.com) | Vzdálená správa klientských počítačů |
-| [Visual Studio Code](https://code.visualstudio.com/) | Editor kódu pro spoutu programovacích jazyků |
-| [Warp](https://www.warp.dev/) | Terminal s pokročilejšími funkcemi |
+| Název                                                                                  | Popis                                                                                          |
+| -------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| [Alfred](https://www.alfredapp.com/)                                                   | Náhrada za Spotlight, spoštění aplikací, vyhledávání souborů, automatizace skrze Workflows,... |
+| [AltTab](https://alt-tab-macos.netlify.app/)                                           | Rychlé přepínání aplikací pomocí klávesové zkratky Alt+Tab s náhledy                           |
+| [Amphetamine](https://apps.apple.com/cz/app/amphetamine/id937984704?mt=12)             | Nedovolí Macu usnout na předdefinovanou dobu                                                   |
+| [balenaEtcher](https://www.balena.io/etcher/)                                          | Flashování SD karet a USB disků                                                                |
+| [BuhoCleaner](https://www.drbuho.com/buhocleaner/download)                             | Odinstalce a čištění Mac OSX                                                                   |
+| [CrossOver](https://www.codeweavers.com/crossover)                                     | Virtualizace Windows aplikací na MacOS. Funguje i s aplikací Winbox od Microsoft               |
+| [DeepL](https://www.deepl.com/translator)                                              | Překladač podobný Google Translator, založený na AI                                            |
+| [DisplayLink](https://www.synaptics.com/products/displaylink-graphics/downloads/macos) | Aplikace nutná pro fungování dokovací stanice od i-tec                                         |
+| [Docker](https://www.docker.com/)                                                      | Spouštění kontejnerových aplikací                                                              |
+| [Dropzone](https://aptonic.com/)                                                       | Nástroj na kopírování a nahrávání souborů do různých úložišť                                   |
+| [FileZilla](https://filezilla-project.org/)                                            | FTP klient                                                                                     |
+| [IINA](https://iina.io/)                                                               | Video přehrávač                                                                                |
+| [KeepassXC](https://keepassxc.org/)                                                    | Správce hesel                                                                                  |
+| [Microsoft Edge](https://www.microsoft.com/cs-cz/edge/)                                | Webový prohlížeč                                                                               |
+| [Microsoft Remote Deskotop](https://apps.apple.com/us/app/microsoft-remote-desktop/)   | Připojení na vzdálenou plochu, funkční s Azure Virtual Desktop                                 |
+| [Microsoft To Do](https://todo.microsoft.com/tasks/)                                   | Jednoduchý správce úkolů                                                                       |
+| [Moom](https://apps.apple.com/us/app/moom/id419330170?mt=12)                           | Správce oken                                                                                   |
+| [Permute 3](https://software.charliemonroe.net/permute/)                               | Video a audio konvertor                                                                        |
+| [Raspberry Pi Imager](https://www.raspberrypi.com/software/)                           | Flashování SD karet připravenými image pro Raspberry Pi                                        |
+| [Remote Desktop Manager](https://devolutions.net/remote-desktop-manager/)              | Správce připojení na vzdálenou plochu, SSH, VNC, ...                                           |
+| [Shottr](https://shottr.cc/)                                                           | Nástroj na vytváření a úpravu screenshotů                                                      |
+| [Spotify](https://www.spotify.com/us/download/android/)                                | Přehrávač streamované hudby a hudební knihovna                                                 |
+| [Stream Deck](https://www.elgato.com/en/stream-deck)                                   | Aplikace na konfiguraci programovatelné klávesnice od Elgato                                   |
+| [TeamViewer](https://www.teamviewer.com)                                               | Vzdálená správa klientských počítačů                                                           |
+| [Visual Studio Code](https://code.visualstudio.com/)                                   | Editor kódu pro spoutu programovacích jazyků                                                   |
+| [Warp](https://www.warp.dev/)                                                          | Terminal s pokročilejšími funkcemi                                                             |
 
 
 # Seznam Alfred Workflow
 
-| Název                                                                     | Popis                                                     |
-|---------------------------------------------------------------------------|-----------------------------------------------------------|
-| [CIDR Calculator](https://gilbertsanchez.com/cidr-calculator-for-alfred/) | Výpočet masky sítě, počtu hostů, první a poslední IP, ... |
-| [EDGE Fix](https://github.com/stepantech/terminal/blob/main/Alfred%20Workflows/Edge%20-%20Fix%20Cert.alfredworkflow) | Vloží příkaz do EDGE konzole pro potlačení nedůvěryhodného certifikátu |
-| [Visual Studio Code Workspace](https://github.com/stepantech/terminal/blob/main/Alfred%20Workflows/Visual%20Studio%20Code%20Workspace.alfredworkflow) | Nabídne seznam všech projektů a nabídne je k rychlému otevření |
+| Název                                                                                                                                                 | Popis                                                                  |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| [CIDR Calculator](https://gilbertsanchez.com/cidr-calculator-for-alfred/)                                                                             | Výpočet masky sítě, počtu hostů, první a poslední IP, ...              |
+| [EDGE Fix](https://github.com/stepantech/terminal/blob/main/Alfred%20Workflows/Edge%20-%20Fix%20Cert.alfredworkflow)                                  | Vloží příkaz do EDGE konzole pro potlačení nedůvěryhodného certifikátu |
+| [Visual Studio Code Workspace](https://github.com/stepantech/terminal/blob/main/Alfred%20Workflows/Visual%20Studio%20Code%20Workspace.alfredworkflow) | Nabídne seznam všech projektů a nabídne je k rychlému otevření         |
+| [Amphetamine Dose](https://alfred.app/workflows/vanstrouble/amphetamine-dose/)                                                                        | Ovládání aplikace Amphetamine                                          |
 
 
 # PowerShell
