@@ -20,6 +20,7 @@ tags: [macos, apps, aplikace, apple]     # TAG names should always be lowercase
 | [Docker](https://www.docker.com/)                                                      | Spouštění kontejnerových aplikací                                                              |
 | [Dropzone](https://aptonic.com/)                                                       | Nástroj na kopírování a nahrávání souborů do různých úložišť                                   |
 | [FileZilla](https://filezilla-project.org/)                                            | FTP klient                                                                                     |
+| [ICE](https://github.com/jordanbaird/Ice)                                              | Správce menu baru, řeší problém se schováváním ikon za noch                                    |
 | [IINA](https://iina.io/)                                                               | Video přehrávač                                                                                |
 | [KeepassXC](https://keepassxc.org/)                                                    | Správce hesel                                                                                  |
 | [Microsoft Edge](https://www.microsoft.com/cs-cz/edge/)                                | Webový prohlížeč                                                                               |
