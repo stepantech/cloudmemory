@@ -47,6 +47,9 @@ tags: [macos, apps, aplikace, apple]     # TAG names should always be lowercase
 | [Visual Studio Code Workspace](https://github.com/stepantech/terminal/blob/main/Alfred%20Workflows/Visual%20Studio%20Code%20Workspace.alfredworkflow) | Nabídne seznam všech projektů a nabídne je k rychlému otevření         |
 | [Amphetamine Dose](https://alfred.app/workflows/vanstrouble/amphetamine-dose/)                                                                        | Ovládání aplikace Amphetamine                                          |
 
+# Finder Quick Actions
+## Convert to mp4
+[Stáhnout soubor](https://github.com/stepantech/cloudmemory/blob/main/assets/others/Convert%20to%20mp4.workflow)
 
 # PowerShell
 ## PowerShell PROFILE
