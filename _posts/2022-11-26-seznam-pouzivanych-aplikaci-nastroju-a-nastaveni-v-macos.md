@@ -49,7 +49,7 @@ tags: [macos, apps, aplikace, apple]     # TAG names should always be lowercase
 
 # Finder Quick Actions
 ## Convert to mp4
-[Stáhnout soubor](https://github.com/stepantech/cloudmemory/blob/main/assets/others/Convert%20to%20mp4.workflow)
+[Stáhnout soubor](https://github.com/stepantech/cloudmemory/blob/main/assets/others/Convert%20to%20mp4.workflow.zip)
 
 # PowerShell
 ## PowerShell PROFILE
