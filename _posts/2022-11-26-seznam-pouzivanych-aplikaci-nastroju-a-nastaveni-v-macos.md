@@ -33,6 +33,7 @@ tags: [macos, apps, aplikace, apple]     # TAG names should always be lowercase
 | [Shottr](https://shottr.cc/)                                                           | Nástroj na vytváření a úpravu screenshotů                                                      |
 | [Spotify](https://www.spotify.com/us/download/android/)                                | Přehrávač streamované hudby a hudební knihovna                                                 |
 | [Stream Deck](https://www.elgato.com/en/stream-deck)                                   | Aplikace na konfiguraci programovatelné klávesnice od Elgato                                   |
+| [SuperWhisper](https://superwhisper.com/)                                              | Převod mluveného slova na text. Jednoduché disktování textu.                                   |
 | [TeamViewer](https://www.teamviewer.com)                                               | Vzdálená správa klientských počítačů                                                           |
 | [Visual Studio Code](https://code.visualstudio.com/)                                   | Editor kódu pro spoutu programovacích jazyků                                                   |
 | [Warp](https://www.warp.dev/)                                                          | Terminal s pokročilejšími funkcemi                                                             |
